@@ -1,6 +1,6 @@
-@use 'config/reset.scss';
-@use 'config/variables.scss';
-@use 'config/colors.scss';
+@use '../config/reset.scss';
+@use '../config/variables.scss';
+@use '../config/colors.scss';
 
 .products {
     margin-top: 40px;
@@ -15,8 +15,8 @@
     
     .product-button {
         display: block;
-        background-color: #44bd32;
-        color: #fff;
+        background-color: colors.$buttonColor;
+        color: colors.$branco;
         text-align: center;
         padding: 8px 0;
         border-radius: 8px;
@@ -24,7 +24,7 @@
         text-decoration: none;
 
         &:hover{
-            background-color: #4cd137;
+            background-color: colors.$buttonHoverColor ;
         }
         
     }

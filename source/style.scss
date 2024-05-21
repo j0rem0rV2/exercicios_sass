@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: #f5f6fa;
+    background-color: colors.$bodyColor;
 }
 
 li {
@@ -46,7 +46,7 @@ header {
     }
     
     .menu li a {
-        color: #fff;
+        color: colors.$branco;;
         text-decoration: none;
     }
 
